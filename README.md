@@ -10,6 +10,23 @@ DATASETS
 
 TOOLS: Software R Project / Python
 
+Insurance-Price-Prediction/
+├── data/
+│   ├── raw/
+│   ├── processed/
+├── notebooks/
+│   ├── exploratory_data_analysis.ipynb
+│   ├── model_training.ipynb
+├── src/
+│   ├── data_preprocessing.py
+│   ├── model.py
+│   ├── utils.py
+├── tests/
+├── README.md
+├── requirements.txt
+├── setup.py
+
+
 ## Problems
 
 Insurance companies need to predict the price of premiums for new customers accurately. By analyzing historical data, we can build a model that helps in estimating these prices.
