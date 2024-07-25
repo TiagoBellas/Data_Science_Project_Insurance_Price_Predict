@@ -23,12 +23,12 @@ on Automobile Insurance. Comment on the features observed and highlight values o
 that you think are important to characterize the phenomenom.
 
 3. Fit distributions to the Number of Claims and Claim Severity.
-  - **For the Number of Claims, remove the highest outlier from data. Refer that fact on your
+  - For the Number of Claims, remove the highest outlier from data. Refer that fact on your
 report.
-  - **For Claims Severity, choose an upper bound that allows you to fit a distribution of the
+  - For Claims Severity, choose an upper bound that allows you to fit a distribution of the
 Exponential Family. Refer, on your report, the upper bound considered and the number
 of claims removed from data and give a comment on the choice of the upper bound.
-  - **What is the mean value and standard deviation of the claims removed from data in question
+  - What is the mean value and standard deviation of the claims removed from data in question
 3? Plot the removed data in a histogram and a boxplot. Comment. Give your opinion on
 how should the insurer include that data on the final premium structure.
 
@@ -42,18 +42,18 @@ Using all the results from Part I, we are asked to answer the following question
 
 1. Fit a GLM to the Number of Claims data and estimate the claim frequency for each risk profile
 in your portfolio.
-  - **Detail and justify your model assumptions and choices.
-  - **Improve your model, using adequate statistical tests.
-  - **Evaluate and comment on the quality of the model.
-  - **Identify the Standard Insured characteristics and the correspondent claim frequency estimate.
-  - **Include any comments you consider relevant.
+  - Detail and justify your model assumptions and choices.
+  - Improve your model, using adequate statistical tests.
+  - Evaluate and comment on the quality of the model.
+  - Identify the Standard Insured characteristics and the correspondent claim frequency estimate.
+  - Include any comments you consider relevant.
 
 2. Fit a GLM to the Claim Costs of “common” claims.
-- **Be clear about your definition of “common” claim.
-- **Detail and justify your model assumptions and choices.
-- **Improve your model, using adequate statistical tests.
-- **Evaluate the quality of the model.
-- **Include any comments you consider important.
+ - Be clear about your definition of “common” claim.
+ - Detail and justify your model assumptions and choices.
+ - Improve your model, using adequate statistical tests.
+ - Evaluate the quality of the model.
+ - Include any comments you consider important.
 
 3. Propose a Pricing Structure to the “common” claims. Identify the highest and lowest insured’s
 risk profile and the correspondent premiums to be charged. Compare with the premium of the
@@ -66,8 +66,8 @@ large claim. Justify your choice.
 ## Dataset
 The dataset used in this project includes customer information and also contract claims information.
 
-- **Automobile Portfolio (file autodata.txt): This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
--  **Claims Data (file claimsdata.txt): This document provides a summary of the `claimsdata.txt` file used in the Claims Data project. The dataset includes key attributes related to insurance claims, focusing on 3rd Party Liability Coverage.
+- **Automobile Portfolio (file autodata.txt)**: This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
+-  **Claims Data (file claimsdata.txt)**: This document provides a summary of the `claimsdata.txt` file used in the Claims Data project. The dataset includes key attributes related to insurance claims, focusing on 3rd Party Liability Coverage.
 
 ## Data Dictionary
 
