@@ -1,8 +1,5 @@
 # Insurance-Price-Predict
 
-
-Insurance Price Prediction Project
-
 ## Overview
 
 This is a Academic project which aims to develop a machine learning model that accurately predicts insurance prices based on various customer features. By leveraging a dataset containing information about customers and their insurance claims, we aim to provide a reliable tool for predicting future insurance costs.
@@ -13,16 +10,12 @@ This project employs various machine learning algorithms to achieve this goal an
 
 
 
-Dataset
+## Dataset
 The dataset used in this project includes customer information and also contract claims information.
 
-Data Dictionary
+## Data Dictionary
 
-Automobile Portfolio (file autodata.txt):
-# Automobile Portfolio Project
-
-## Overview
-
+### Automobile Portfolio (file autodata.txt):
 This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
 
 ## Data Dictionary
@@ -67,7 +60,3 @@ This document provides a summary of the `autodata.txt` file used in the Automobi
 
 - **popdensity** and **region** are used to build the `zone` variable and should not be included in the tariff model.
 - **bonus** is a numerical variable representing the premium bonus of the policy but will not be used in a priori ratemaking.
-
----
-
-Thank you for reviewing the Automobile Portfolio project documentation! If you have any questions or need further information, please feel free to reach out.
