@@ -14,36 +14,60 @@ This project employs various machine learning algorithms to achieve this goal an
 
 
 Dataset
-The dataset used in this project includes customer information and also contract claims information describe below:
+The dataset used in this project includes customer information and also contract claims information.
+
+Data Dictionary
 
 Automobile Portfolio (file autodata.txt):
- ncontract – Number of contract
- exposition – Risk Exposition of each policy during the year
- zone - Zone of Residence. Classification according to the number of inhabitants for Km2
-o A (1 a 50) o D (501 a 2000)
-o B (51 a 100) o E (2001 a 10000)
-o C (101 a 500) o F (>10000)
- power – Power of the vehicle. Classification in categorical levels.
-o Categories numbered from 4 to 15
- agevehicle – Integer variable representing the age of the insured vehicle
-o ages of vehicle, registered between 0 and 100 years
- agedriver – Integer variable representing the age of the usual driver
-o age of the usual driver, registered between 0 and 100 years
- bonus – premium bonus of the policy – numerical variable. It will not be used in a priori
-ratemaking.
- brand – Brand of the insured vehicle. Classification in Categorical levels:
-o 1 - Renault, Nissan o 10 - Mercedes, Chrysler
-o 2 - Peugeout, Citroen o 11 - BMW, Mini
-o 3 - Volkwagen, Audi, Skoda, Seat o 12 - Japonese and Corean
-o 4 - Opel, GM o 13 – Other European
-o 5 - Ford o 14 – Other Brands
-o 6 - Fiat
- Fuel – Vehicle fuel type. Categorical variable.
-o D - Diesel
-o E - Gasoline
- popdensity – Continuous variable with populational density of the área of residence of the
-policyholder. This variable was used to build the variable Zone. Should not enter the tariff
-model.
- region – region of the zone of residence of the policyholder. Classification in categorical
-variable. This variable was used to build the variable Zone. Should not enter the tariff
-model.
+# Automobile Portfolio Project
+
+## Overview
+
+This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
+
+## Data Dictionary
+
+### Attributes
+
+- **ncontract**: Number of contracts
+- **exposition**: Risk Exposition of each policy during the year
+- **zone**: Zone of Residence. Classification according to the number of inhabitants per km²
+  - A: 1 to 50 inhabitants per km²
+  - B: 51 to 100 inhabitants per km²
+  - C: 101 to 500 inhabitants per km²
+  - D: 501 to 2000 inhabitants per km²
+  - E: 2001 to 10000 inhabitants per km²
+  - F: More than 10000 inhabitants per km²
+- **power**: Power of the vehicle. Classification in categorical levels.
+  - Categories numbered from 4 to 15
+- **agevehicle**: Integer variable representing the age of the insured vehicle
+  - Ages of vehicles range from 0 to 100 years
+- **agedriver**: Integer variable representing the age of the usual driver
+  - Ages of usual drivers range from 0 to 100 years
+- **bonus**: Premium bonus of the policy – numerical variable. It will not be used in a priori ratemaking.
+- **brand**: Brand of the insured vehicle. Classification in categorical levels:
+  - 1: Renault, Nissan
+  - 2: Peugeot, Citroen
+  - 3: Volkswagen, Audi, Skoda, Seat
+  - 4: Opel, GM
+  - 5: Ford
+  - 6: Fiat
+  - 10: Mercedes, Chrysler
+  - 11: BMW, Mini
+  - 12: Japanese and Korean
+  - 13: Other European
+  - 14: Other Brands
+- **Fuel**: Vehicle fuel type. Categorical variable.
+  - D: Diesel
+  - E: Gasoline
+- **popdensity**: Continuous variable with the population density of the area of residence of the policyholder. This variable was used to build the variable Zone. It should not enter the tariff model.
+- **region**: Region of the zone of residence of the policyholder. Classification in categorical variable. This variable was used to build the variable Zone. It should not enter the tariff model.
+
+## Additional Information
+
+- **popdensity** and **region** are used to build the `zone` variable and should not be included in the tariff model.
+- **bonus** is a numerical variable representing the premium bonus of the policy but will not be used in a priori ratemaking.
+
+---
+
+Thank you for reviewing the Automobile Portfolio project documentation! If you have any questions or need further information, please feel free to reach out.
