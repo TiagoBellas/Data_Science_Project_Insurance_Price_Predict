@@ -60,3 +60,25 @@ This document provides a summary of the `autodata.txt` file used in the Automobi
 
 - **popdensity** and **region** are used to build the `zone` variable and should not be included in the tariff model.
 - **bonus** is a numerical variable representing the premium bonus of the policy but will not be used in a priori ratemaking.
+
+# Claims Data Project
+
+## Overview
+
+This document provides a summary of the `claimsdata.txt` file used in the Claims Data project. The dataset includes key attributes related to insurance claims, focusing on 3rd Party Liability Coverage.
+
+## Data Dictionary
+
+### Attributes
+
+- **n**: Unique identifier for the claim record.
+- **ncontract**: Number of contracts.
+- **coverage**: Type of coverage. We are only interested in 3rd Party Liability Coverage, which is registered as "1RC".
+- **cost**: Severity of the claim, measured in terms of cost.
+
+## Additional Information
+
+- The dataset focuses exclusively on 3rd Party Liability Coverage (`coverage` = "1RC").
+- Each claim is uniquely identified by the attribute `n`.
+- The `ncontract` attribute links the claim data to the corresponding insurance policy contract.
+- The `cost` attribute represents the monetary value of the claim, indicating its severity.
