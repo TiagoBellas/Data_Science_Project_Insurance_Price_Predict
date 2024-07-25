@@ -13,14 +13,12 @@ This project employs various machine learning algorithms to achieve this goal an
 ## Dataset
 The dataset used in this project includes customer information and also contract claims information.
 
-## Data Dictionary
-
-### Automobile Portfolio (file autodata.txt):
-This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
+- **Automobile Portfolio (file autodata.txt): This document provides a summary of the `autodata.txt` file used in the Automobile Portfolio project. The dataset contains various attributes related to automobile insurance policies, which are essential for analyzing and predicting insurance risks and premiums.
+-  **Claims Data (file claimsdata.txt): This document provides a summary of the `claimsdata.txt` file used in the Claims Data project. The dataset includes key attributes related to insurance claims, focusing on 3rd Party Liability Coverage.
 
 ## Data Dictionary
 
-### Attributes
+### Automobile Portfolio (file autodata.txt) | Attributes
 
 - **ncontract**: Number of contracts
 - **exposition**: Risk Exposition of each policy during the year
@@ -55,21 +53,12 @@ This document provides a summary of the `autodata.txt` file used in the Automobi
   - E: Gasoline
 - **popdensity**: Continuous variable with the population density of the area of residence of the policyholder. This variable was used to build the variable Zone. It should not enter the tariff model.
 - **region**: Region of the zone of residence of the policyholder. Classification in categorical variable. This variable was used to build the variable Zone. It should not enter the tariff model.
-
-## Additional Information
-
 - **popdensity** and **region** are used to build the `zone` variable and should not be included in the tariff model.
 - **bonus** is a numerical variable representing the premium bonus of the policy but will not be used in a priori ratemaking.
 
-# Claims Data Project
 
-## Overview
 
-This document provides a summary of the `claimsdata.txt` file used in the Claims Data project. The dataset includes key attributes related to insurance claims, focusing on 3rd Party Liability Coverage.
-
-## Data Dictionary
-
-### Attributes
+### Claims Data (file claimsdata.txt) | Attributes
 
 - **n**: Unique identifier for the claim record.
 - **ncontract**: Number of contracts.
