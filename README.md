@@ -10,22 +10,6 @@ DATASETS
 
 TOOLS: Software R Project / Python
 
-Insurance-Price-Prediction/
-├── data/
-│   ├── raw/
-│   ├── processed/
-├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   ├── model_training.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model.py
-│   ├── utils.py
-├── tests/
-├── README.md
-├── requirements.txt
-├── setup.py
-
 
 ## Problems
 
