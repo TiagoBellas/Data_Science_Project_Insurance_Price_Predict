@@ -6,7 +6,7 @@ This is a Academic project which aims to develop a machine learning model that a
 
 DATASETS
  - File autodata.txt
-  -File claimsdata.txt
+ - File claimsdata.txt
 
 TOOLS: Software R Project / Python
 
